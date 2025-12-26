@@ -1,0 +1,59 @@
+<mxfile host="65bd71144e">
+    <diagram name="Page-1" id="L5vCVs9DWb8Jn7yeEPWN">
+        <mxGraphModel dx="1786" dy="753" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="cWQXbTFSB73wE2G_CcI6-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;endArrow=none;endFill=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="cWQXbTFSB73wE2G_CcI6-7" target="cWQXbTFSB73wE2G_CcI6-9" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="240" y="125" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="cWQXbTFSB73wE2G_CcI6-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=none;endFill=0;" parent="1" source="cWQXbTFSB73wE2G_CcI6-7" target="cWQXbTFSB73wE2G_CcI6-10" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="cWQXbTFSB73wE2G_CcI6-7" value="&lt;b&gt;&lt;u&gt;javaListing : SkillListing&lt;/u&gt;&lt;/b&gt;&lt;hr&gt;id = &quot;SL001&quot;&lt;br&gt;title = &quot;Java Programming&quot;&lt;br&gt;&lt;div&gt;description = &quot;Learn core Java&quot;&lt;/div&gt;&lt;div&gt;durationInMinutes = 60&lt;/div&gt;&lt;div&gt;creditCost = 50&lt;/div&gt;&lt;div&gt;isActive = true&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=center;verticalAlign=top;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
+                    <mxGeometry x="320" y="90" width="200" height="130" as="geometry"/>
+                </mxCell>
+                <mxCell id="cWQXbTFSB73wE2G_CcI6-9" value="&lt;b&gt;&lt;u&gt;teacher : User&lt;/u&gt;&lt;/b&gt;&lt;hr&gt;id = &quot;U001&quot;&lt;br&gt;name = &quot;Alice&quot;&lt;div&gt;&lt;font color=&quot;#000000&quot;&gt;bio = &quot;SWE at company&quot;&lt;br&gt;&lt;/font&gt;&lt;div&gt;email = &quot;alice@example.com&quot;&lt;div&gt;reputationScore = 4.2&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=center;verticalAlign=top;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+                    <mxGeometry x="70" y="100" width="180" height="110" as="geometry"/>
+                </mxCell>
+                <mxCell id="cWQXbTFSB73wE2G_CcI6-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;endArrow=none;endFill=0;" parent="1" source="cWQXbTFSB73wE2G_CcI6-10" target="cWQXbTFSB73wE2G_CcI6-12" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="4" style="edgeStyle=none;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=none;endFill=0;" edge="1" parent="1" source="cWQXbTFSB73wE2G_CcI6-10" target="cWQXbTFSB73wE2G_CcI6-20">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="5" style="edgeStyle=none;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=none;endFill=0;" edge="1" parent="1" source="cWQXbTFSB73wE2G_CcI6-10" target="cWQXbTFSB73wE2G_CcI6-16">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="cWQXbTFSB73wE2G_CcI6-10" value="&lt;b&gt;&lt;u&gt;session1 : Session&lt;/u&gt;&lt;/b&gt;&lt;hr&gt;id = &quot;S001&quot;&lt;div&gt;&lt;font color=&quot;#000000&quot;&gt;additionalComments = &quot;Would prefer f2f&quot;&lt;br&gt;&lt;/font&gt;&lt;div&gt;requestedAt = &quot;2025-12-22 14:33&quot;&lt;/div&gt;&lt;div&gt;videoLink = null&lt;/div&gt;&lt;/div&gt;&lt;div&gt;scheduledTime = null&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=center;verticalAlign=top;fillColor=#e1d5e7;strokeColor=#9673a6;" parent="1" vertex="1">
+                    <mxGeometry x="310" y="270" width="220" height="110" as="geometry"/>
+                </mxCell>
+                <mxCell id="cWQXbTFSB73wE2G_CcI6-12" value="&lt;b&gt;&lt;u&gt;student : User&lt;/u&gt;&lt;/b&gt;&lt;hr&gt;id = &quot;U002&quot;&lt;br&gt;name = &quot;Bob&quot;&lt;div&gt;&lt;font color=&quot;#000000&quot;&gt;bio = &quot;Student at UniBuc&quot;&lt;br&gt;&lt;/font&gt;email = &quot;bob@example.com&quot;&lt;div&gt;reputationScore = 0&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=center;verticalAlign=top;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+                    <mxGeometry x="10" y="270" width="180" height="107.5" as="geometry"/>
+                </mxCell>
+                <mxCell id="cWQXbTFSB73wE2G_CcI6-16" value="&lt;b&gt;&lt;u&gt;escrow1 : EscrowTransaction&lt;/u&gt;&lt;/b&gt;&lt;hr&gt;id = &quot;ET001&quot;&lt;br&gt;&lt;div&gt;amount = 50&lt;br&gt;status = &quot;HELD&quot;&lt;/div&gt;&lt;div&gt;createdAt = &quot;2025-12-22 14:33&quot;&lt;/div&gt;&lt;div&gt;completedAt = null&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=center;verticalAlign=top;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
+                    <mxGeometry x="220" y="420" width="200" height="110" as="geometry"/>
+                </mxCell>
+                <mxCell id="cWQXbTFSB73wE2G_CcI6-20" value="&lt;b&gt;&lt;u&gt;requestedState : RequestedState&lt;/u&gt;&lt;/b&gt;&lt;hr&gt;&lt;div&gt;proposedTime = &quot;2025-12-30 10:00&quot;&lt;/div&gt;&lt;div&gt;expirationTime = &quot;2025-12-31 11:00&quot;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=center;verticalAlign=top;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
+                    <mxGeometry x="430" y="420" width="200" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="bobWallet" value="&lt;b&gt;&lt;u&gt;bobWallet : Wallet&lt;/u&gt;&lt;/b&gt;&lt;hr&gt;walletId = &quot;W002&quot;&lt;br&gt;availableCredits = 50&lt;br&gt;lockedCredits = 50" style="rounded=0;whiteSpace=wrap;html=1;align=center;verticalAlign=top;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
+                    <mxGeometry x="10" y="427.5" width="180" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="linkStudentWallet" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=none;endFill=0;" parent="1" source="cWQXbTFSB73wE2G_CcI6-12" target="bobWallet" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="UDwBl0OYIBV2fCoZzOQu-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=none;endFill=0;" parent="1" source="UDwBl0OYIBV2fCoZzOQu-3" target="cWQXbTFSB73wE2G_CcI6-9" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="UDwBl0OYIBV2fCoZzOQu-3" value="&lt;b&gt;&lt;u&gt;aliceWallet : Wallet&lt;/u&gt;&lt;/b&gt;&lt;hr&gt;walletId = &quot;W001&quot;&lt;br&gt;availableCredits = 0&lt;br&gt;lockedCredits = 0" style="rounded=0;whiteSpace=wrap;html=1;align=center;verticalAlign=top;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
+                    <mxGeometry x="-170" y="115" width="180" height="80" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
