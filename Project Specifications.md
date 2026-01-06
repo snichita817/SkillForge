@@ -141,3 +141,6 @@ SkillForge is a web platform that facilitates the exchange of skills between use
     - PaymentRequest
     - PaymentResponse
 
+### 6.3 Use Case Diagram
+
+* The use case diagram illustrates system functionality from the user’s perspective and complements the structural diagrams by showing how actors interact with the system
