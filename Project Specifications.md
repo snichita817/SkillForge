@@ -93,3 +93,44 @@ SkillForge is a web platform that facilitates the exchange of skills between use
 * **Frontend:** Web Application (Browser based).
 * **Backend:** Monolithic application exposing REST APIs.
 * **External Dependencies:** Zoom/Google Meet (for video), Stripe (Mock for payments).
+
+## 6. Diagrams
+
+### 6.1 General Diagram
+
+
+
+
+### 6.2 Package Diagram
+
+* The package diagram was derived by grouping components from the system architecture diagram according to responsibility
+* User:
+      * User – core identity
+      * Profile – public user information
+      * Credentials – authentication data
+      * RoleContext – student/teacher role
+* Skill Listing: 
+      * SkillListing – teaching offer
+      * Tag – categorization
+      * SearchCriteria – filtering logic
+* Scheduling:
+      * Session – learning event
+      * TimeSlot – scheduled time
+      * AvailabilityCalendar – teacher availability
+      * SessionState – lifecycle
+* Wallet:
+      * Wallet – credit balance
+      * CreditTransaction – immutable history
+      * EscrowEntry – locked credits
+* Reputation:
+      * Review – text feedback
+      * Rating – numeric score
+      * ReputationScore – aggregated value
+* Communication:
+      * Chat
+      * Message
+      * Conversation
+* External payment:
+      * PaymentService
+      * PaymentRequest
+      * PaymentResponse
