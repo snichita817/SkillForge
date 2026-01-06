@@ -1,0 +1,354 @@
+<mxfile host="65bd71144e">
+    <diagram name="Session Lifecycle - Detailed" id="seq-detailed">
+        <mxGraphModel dx="1325" dy="824" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1800" pageHeight="1200" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="title" value="&lt;b&gt;Sequence Diagram: Session Lifecycle&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" parent="1" vertex="1">
+                    <mxGeometry x="600" y="20" width="450" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="student-actor" value="&lt;b&gt;:Student&lt;/b&gt;&lt;br&gt;(Bob)" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+                    <mxGeometry x="80" y="50" width="40" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="listing-box" value="&lt;b&gt;:SkillListing&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
+                    <mxGeometry x="250" y="70" width="100" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="session-box" value="&lt;b&gt;:Session&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" parent="1" vertex="1">
+                    <mxGeometry x="450" y="70" width="100" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="student-wallet-box" value="&lt;b&gt;:Wallet&lt;/b&gt;&lt;br&gt;(Student)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
+                    <mxGeometry x="650" y="70" width="100" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="escrow-box" value="&lt;b&gt;:EscrowTransaction&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
+                    <mxGeometry x="850" y="70" width="130" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="teacher-wallet-box" value="&lt;b&gt;:Wallet&lt;/b&gt;&lt;br&gt;(Teacher)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
+                    <mxGeometry x="1080" y="70" width="100" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="teacher-actor" value="&lt;b&gt;:Teacher&lt;/b&gt;&lt;br&gt;(Alice)" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+                    <mxGeometry x="1280" y="60" width="40" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="student-lifeline" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 4;strokeWidth=2;strokeColor=#666666;" parent="1" edge="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="100" y="130" as="sourcePoint"/>
+                        <mxPoint x="100" y="1100" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="listing-lifeline" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 4;strokeWidth=2;strokeColor=#666666;" parent="1" edge="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="300" y="110" as="sourcePoint"/>
+                        <mxPoint x="300" y="1100" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="session-lifeline" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 4;strokeWidth=2;strokeColor=#666666;" parent="1" edge="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="500" y="110" as="sourcePoint"/>
+                        <mxPoint x="500" y="1100" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="student-wallet-lifeline" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 4;strokeWidth=2;strokeColor=#666666;" parent="1" edge="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="700" y="110" as="sourcePoint"/>
+                        <mxPoint x="700" y="1100" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="escrow-lifeline" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 4;strokeWidth=2;strokeColor=#666666;" parent="1" edge="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="915" y="110" as="sourcePoint"/>
+                        <mxPoint x="915" y="1100" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="teacher-wallet-lifeline" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 4;strokeWidth=2;strokeColor=#666666;" parent="1" edge="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="1130" y="110" as="sourcePoint"/>
+                        <mxPoint x="1130" y="1100" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="teacher-lifeline" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 4;strokeWidth=2;strokeColor=#666666;" parent="1" edge="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="1300" y="130" as="sourcePoint"/>
+                        <mxPoint x="1300" y="1100" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="phase1-label" value="&lt;b&gt;1. BROWSE &amp;amp; REQUEST SESSION&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=#e1d5e7;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;" parent="1" vertex="1">
+                    <mxGeometry x="20" y="150" width="200" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="msg1" value="1. getActiveListings()" style="endArrow=classic;html=1;strokeWidth=1;" parent="1" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="105" y="180" as="sourcePoint"/>
+                        <mxPoint x="295" y="180" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="msg2" value="2. listings[]" style="endArrow=classic;html=1;strokeWidth=1;dashed=1;" parent="1" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="295" y="210" as="sourcePoint"/>
+                        <mxPoint x="105" y="210" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="msg3" value="3. selectListing(javaListing)" style="endArrow=classic;html=1;strokeWidth=1;" parent="1" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="105" y="240" as="sourcePoint"/>
+                        <mxPoint x="295" y="240" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="msg4" value="4. getDetails()" style="endArrow=classic;html=1;strokeWidth=1;dashed=1;" parent="1" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="295" y="270" as="sourcePoint"/>
+                        <mxPoint x="105" y="270" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="msg4-note" value="creditCost=50, teacher=Alice" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=9;fontStyle=2" parent="1" vertex="1">
+                    <mxGeometry x="110" y="275" width="150" height="15" as="geometry"/>
+                </mxCell>
+                <mxCell id="msg5" value="5. requestSession(proposedTime, comments)" style="endArrow=classic;html=1;strokeWidth=1;" parent="1" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="105" y="310" as="sourcePoint"/>
+                        <mxPoint x="495" y="310" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="session-activation1" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" parent="1" vertex="1">
+                    <mxGeometry x="495" y="310" width="10" height="180" as="geometry"/>
+                </mxCell>
+                <mxCell id="msg6" value="6. checkBalance(creditCost=50)" style="endArrow=classic;html=1;strokeWidth=1;" parent="1" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="505" y="340" as="sourcePoint"/>
+                        <mxPoint x="695" y="340" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="alt-frame" value="" style="shape=frame;whiteSpace=wrap;html=1;width=40;height=20;fillColor=none;strokeColor=#b85450;strokeWidth=2;" parent="1" vertex="1">
+                    <mxGeometry x="60" y="355" width="1280" height="235" as="geometry"/>
+                </mxCell>
+                <mxCell id="alt-label" value="&lt;span style=&quot;color: rgb(0, 0, 0); font-style: italic; text-align: left;&quot;&gt;[availableCredits &amp;lt; 50]&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=#f8cecc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;" parent="1" vertex="1">
+                    <mxGeometry x="60" y="355" width="110" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="msg7-err" value="7a. InsufficientCreditsException" style="endArrow=classic;html=1;strokeWidth=1;dashed=1;strokeColor=#b85450;" parent="1" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="695" y="390" as="sourcePoint"/>
+                        <mxPoint x="105" y="390" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="msg7" value="7b. true (sufficient)" style="endArrow=classic;html=1;strokeWidth=1;dashed=1;" parent="1" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="695" y="433" as="sourcePoint"/>
+                        <mxPoint x="505" y="433" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="msg8" value="8. lockCredits(50)" style="endArrow=classic;html=1;strokeWidth=1;" parent="1" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="505" y="455" as="sourcePoint"/>
+                        <mxPoint x="695" y="455" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="msg8-note" value="availableCredits -= 50&lt;br&gt;lockedCredits += 50" style="text;html=1;strokeColor=#82b366;fillColor=#d5e8d4;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontSize=9;" parent="1" vertex="1">
+                    <mxGeometry x="705" y="445" width="110" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="msg9" value="9. create(amount=50, status=HELD)" style="endArrow=classic;html=1;strokeWidth=1;" parent="1" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="505" y="490" as="sourcePoint"/>
+                        <mxPoint x="910" y="490" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="escrow-create-note" value="&lt;b&gt;«create»&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=9;" parent="1" vertex="1">
+                    <mxGeometry x="880" y="475" width="60" height="15" as="geometry"/>
+                </mxCell>
+                <mxCell id="msg10" value="10. escrowTransaction" style="endArrow=classic;html=1;strokeWidth=1;dashed=1;" parent="1" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="910" y="510" as="sourcePoint"/>
+                        <mxPoint x="505" y="510" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="session-state1" value="state = REQUESTED&lt;br&gt;requestedAt = now()" style="text;html=1;strokeColor=#9673a6;fillColor=#e1d5e7;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontSize=9;" parent="1" vertex="1">
+                    <mxGeometry x="526" y="514" width="110" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="msg11" value="11. notifyNewRequest(session)" style="endArrow=classic;html=1;strokeWidth=1;" parent="1" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="505" y="550" as="sourcePoint"/>
+                        <mxPoint x="1295" y="550" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="msg12" value="12. sessionRequested" style="endArrow=classic;html=1;strokeWidth=1;dashed=1;" parent="1" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="495" y="575" as="sourcePoint"/>
+                        <mxPoint x="105" y="575" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="phase2-label" value="&lt;b&gt;2. TEACHER RESPONSE&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=#e1d5e7;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;" parent="1" vertex="1">
+                    <mxGeometry x="20" y="600" width="160" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="alt2-frame" value="" style="shape=frame;whiteSpace=wrap;html=1;width=40;height=20;fillColor=none;strokeColor=#82b366;strokeWidth=2;" parent="1" vertex="1">
+                    <mxGeometry x="60" y="625" width="1280" height="200" as="geometry"/>
+                </mxCell>
+                <mxCell id="alt2-label" value="&lt;span style=&quot;color: rgb(0, 0, 0); font-style: italic; text-align: left;&quot;&gt;[teacher accepts]&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=#d5e8d4;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;" parent="1" vertex="1">
+                    <mxGeometry x="60" y="625" width="80" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="msg13" value="13a. acceptSession(sessionId)" style="endArrow=classic;html=1;strokeWidth=1;" parent="1" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="1295" y="660" as="sourcePoint"/>
+                        <mxPoint x="505" y="660" as="targetPoint"/>
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="session-activation2" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" parent="1" vertex="1">
+                    <mxGeometry x="495" y="660" width="10" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="session-state2" value="state = SCHEDULED&lt;br&gt;scheduledTime = proposedTime" style="text;html=1;strokeColor=#9673a6;fillColor=#e1d5e7;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontSize=9;" parent="1" vertex="1">
+                    <mxGeometry x="510" y="665" width="170" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="msg14" value="14a. notifySessionAccepted(session)" style="endArrow=classic;html=1;strokeWidth=1;dashed=1;" parent="1" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="495" y="710" as="sourcePoint"/>
+                        <mxPoint x="105" y="710" as="targetPoint"/>
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="alt2-divider" value="" style="endArrow=none;dashed=1;html=1;dashPattern=8 8;strokeWidth=1;strokeColor=#82b366;" parent="1" edge="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="60" y="740" as="sourcePoint"/>
+                        <mxPoint x="1340" y="740" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="msg13b" value="13b. rejectSession(sessionId)" style="endArrow=classic;html=1;strokeWidth=1;strokeColor=#b85450;" parent="1" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="1295" y="770" as="sourcePoint"/>
+                        <mxPoint x="505" y="770" as="targetPoint"/>
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="session-activation3" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
+                    <mxGeometry x="495" y="770" width="10" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="msg14b" value="14b. refund()" style="endArrow=classic;html=1;strokeWidth=1;strokeColor=#b85450;" parent="1" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="505" y="785" as="sourcePoint"/>
+                        <mxPoint x="910" y="785" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="msg15b" value="15b. unlockCredits(50)" style="endArrow=classic;html=1;strokeWidth=1;strokeColor=#b85450;" parent="1" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="910" y="800" as="sourcePoint"/>
+                        <mxPoint x="705" y="800" as="targetPoint"/>
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="msg15b-note" value="lockedCredits -= 50&lt;br&gt;availableCredits += 50" style="text;html=1;strokeColor=#b85450;fillColor=#f8cecc;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontSize=9;" parent="1" vertex="1">
+                    <mxGeometry x="705" y="742" width="113" height="25" as="geometry"/>
+                </mxCell>
+                <mxCell id="phase3-label" value="&lt;b&gt;3. SESSION COMPLETION&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=#e1d5e7;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;" parent="1" vertex="1">
+                    <mxGeometry x="20" y="840" width="180" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="session-note" value="&lt;i&gt;(Video session takes place at scheduledTime)&lt;/i&gt;" style="text;html=1;strokeColor=#d6b656;fillColor=#fff2cc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontSize=10;" parent="1" vertex="1">
+                    <mxGeometry x="550" y="860" width="250" height="25" as="geometry"/>
+                </mxCell>
+                <mxCell id="msg16" value="16. completeSession(sessionId)" style="endArrow=classic;html=1;strokeWidth=1;" parent="1" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="1295" y="905" as="sourcePoint"/>
+                        <mxPoint x="505" y="905" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="session-activation4" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" parent="1" vertex="1">
+                    <mxGeometry x="495" y="905" width="10" height="120" as="geometry"/>
+                </mxCell>
+                <mxCell id="session-state3" value="state = COMPLETED&lt;br&gt;completedAt = now()" style="text;html=1;strokeColor=#9673a6;fillColor=#e1d5e7;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontSize=9;" parent="1" vertex="1">
+                    <mxGeometry x="510" y="910" width="120" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="msg17" value="17. release()" style="endArrow=classic;html=1;strokeWidth=1;" parent="1" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="505" y="955" as="sourcePoint"/>
+                        <mxPoint x="910" y="955" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="escrow-state" value="status = RELEASED&lt;br&gt;completedAt = now()" style="text;html=1;strokeColor=#d79b00;fillColor=#ffe6cc;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontSize=9;" parent="1" vertex="1">
+                    <mxGeometry x="920" y="945" width="120" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="msg18" value="18. deductLockedCredits(50)" style="endArrow=classic;html=1;strokeWidth=1;" parent="1" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="910" y="985" as="sourcePoint"/>
+                        <mxPoint x="705" y="985" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="msg18-note" value="lockedCredits -= 50" style="text;html=1;strokeColor=#82b366;fillColor=#d5e8d4;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontSize=9;" parent="1" vertex="1">
+                    <mxGeometry x="705" y="994" width="100" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="msg19" value="19. addCredits(50)" style="endArrow=classic;html=1;strokeWidth=1;" parent="1" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="910" y="1010" as="sourcePoint"/>
+                        <mxPoint x="1125" y="1010" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="msg19-note" value="availableCredits += 50" style="text;html=1;strokeColor=#82b366;fillColor=#d5e8d4;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontSize=9;" parent="1" vertex="1">
+                    <mxGeometry x="1135" y="1005" width="120" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="msg20" value="20. completionConfirmed(session)" style="endArrow=classic;html=1;strokeWidth=1;dashed=1;" parent="1" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="505" y="1040" as="sourcePoint"/>
+                        <mxPoint x="1295" y="1040" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="msg21" value="21. promptForReview(session)" style="endArrow=classic;html=1;strokeWidth=1;dashed=1;" parent="1" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="495" y="1065" as="sourcePoint"/>
+                        <mxPoint x="105" y="1065" as="targetPoint"/>
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="legend-box" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;" parent="1" vertex="1">
+                    <mxGeometry x="1400" y="150" width="180" height="180" as="geometry"/>
+                </mxCell>
+                <mxCell id="legend-title" value="&lt;b&gt;Legend&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;" parent="1" vertex="1">
+                    <mxGeometry x="1400" y="155" width="180" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="legend1" value="" style="endArrow=classic;html=1;strokeWidth=1;" parent="1" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="1410" y="195" as="sourcePoint"/>
+                        <mxPoint x="1480" y="195" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="legend1-text" value="Sync call" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;" parent="1" vertex="1">
+                    <mxGeometry x="1490" y="185" width="80" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="legend2" value="" style="endArrow=classic;html=1;strokeWidth=1;dashed=1;" parent="1" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="1410" y="220" as="sourcePoint"/>
+                        <mxPoint x="1480" y="220" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="legend2-text" value="Return/Response" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;" parent="1" vertex="1">
+                    <mxGeometry x="1490" y="210" width="90" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="legend3" value="" style="endArrow=classic;html=1;strokeWidth=1;strokeColor=#b85450;" parent="1" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="1410" y="245" as="sourcePoint"/>
+                        <mxPoint x="1480" y="245" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="legend3-text" value="Error/Reject path" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;" parent="1" vertex="1">
+                    <mxGeometry x="1490" y="235" width="90" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="legend4" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" parent="1" vertex="1">
+                    <mxGeometry x="1410" y="265" width="10" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="legend4-text" value="Activation bar" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;" parent="1" vertex="1">
+                    <mxGeometry x="1430" y="270" width="80" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="legend5" value="state=X" style="text;html=1;strokeColor=#9673a6;fillColor=#e1d5e7;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontSize=9;" parent="1" vertex="1">
+                    <mxGeometry x="1410" y="300" width="60" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="legend5-text" value="State change" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;" parent="1" vertex="1">
+                    <mxGeometry x="1480" y="300" width="80" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="2" value="&lt;span style=&quot;color: rgb(0, 0, 0); font-style: italic; text-align: left;&quot;&gt;[availableCredits &amp;gt;= 50]&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=#f8cecc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;" vertex="1" parent="1">
+                    <mxGeometry x="60" y="420" width="110" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="3" value="" style="endArrow=none;dashed=1;html=1;dashPattern=8 8;strokeWidth=1;strokeColor=#82b366;" edge="1" parent="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="60" y="410" as="sourcePoint"/>
+                        <mxPoint x="1340" y="410" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="4" value="&lt;span style=&quot;color: rgb(0, 0, 0); font-style: italic; text-align: left;&quot;&gt;[teacher rejects]&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=#d5e8d4;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;" vertex="1" parent="1">
+                    <mxGeometry x="60" y="742" width="80" height="20" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>

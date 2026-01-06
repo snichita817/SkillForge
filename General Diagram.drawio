@@ -1,81 +1,73 @@
 <mxfile host="65bd71144e">
-    <diagram id="y8rOzg1ND_r3mNMD9G8a" name="Page-1">
-        <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
-            <root>
-                <mxCell id="0"/>
-                <mxCell id="1" parent="0"/>
-            </root>
-        </mxGraphModel>
-    </diagram>
     <diagram name="SkillForge General Solution" id="c4-container">
-        <mxGraphModel dx="1056" dy="899" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1400" pageHeight="1000" math="0" shadow="0">
+        <mxGraphModel dx="583" dy="510" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1400" pageHeight="1000" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
-                <mxCell id="users-box" value="&lt;b style=&quot;font-size: 14px;&quot;&gt;Users&lt;/b&gt;&lt;br&gt;(Student &amp;amp; Teacher – Unified User Model)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;verticalAlign=middle;fontSize=12;" vertex="1" parent="1">
+                <mxCell id="users-box" value="&lt;b style=&quot;font-size: 14px;&quot;&gt;Users&lt;/b&gt;&lt;br&gt;(Student &amp;amp; Teacher – Unified User Model)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;verticalAlign=middle;fontSize=12;" parent="1" vertex="1">
                     <mxGeometry x="200" y="20" width="400" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="frontend-box" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;verticalAlign=top;fontSize=12;" vertex="1" parent="1">
+                <mxCell id="frontend-box" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;verticalAlign=top;fontSize=12;" parent="1" vertex="1">
                     <mxGeometry x="100" y="140" width="600" height="140" as="geometry"/>
                 </mxCell>
-                <mxCell id="frontend-title" value="&lt;b style=&quot;font-size: 14px;&quot;&gt;FRONTEND WEB APP&lt;/b&gt;&lt;br&gt;[React / TypeScript]" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;" vertex="1" parent="1">
+                <mxCell id="frontend-title" value="&lt;b style=&quot;font-size: 14px;&quot;&gt;FRONTEND WEB APP&lt;/b&gt;&lt;br&gt;[React / TypeScript]" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;" parent="1" vertex="1">
                     <mxGeometry x="300" y="145" width="200" height="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="fe-auth" value="UI Authentification&lt;br&gt;&amp;amp; Profile" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=10;" vertex="1" parent="1">
+                <mxCell id="fe-auth" value="UI Authentification&lt;br&gt;&amp;amp; Profile" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=10;" parent="1" vertex="1">
                     <mxGeometry x="115" y="185" width="100" height="40" as="geometry"/>
                 </mxCell>
-                <mxCell id="fe-search" value="Search Skills&lt;br&gt;&amp;amp; Public Profiles" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=10;" vertex="1" parent="1">
+                <mxCell id="fe-search" value="Search Skills&lt;br&gt;&amp;amp; Public Profiles" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=10;" parent="1" vertex="1">
                     <mxGeometry x="225" y="185" width="100" height="40" as="geometry"/>
                 </mxCell>
-                <mxCell id="fe-calendar" value="Calendar&#xa;&amp; Booking" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=10;" vertex="1" parent="1">
+                <mxCell id="fe-calendar" value="Calendar&#xa;&amp; Booking" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=10;" parent="1" vertex="1">
                     <mxGeometry x="335" y="185" width="100" height="40" as="geometry"/>
                 </mxCell>
-                <mxCell id="fe-chat" value="Chat with other users" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=10;" vertex="1" parent="1">
+                <mxCell id="fe-chat" value="Chat with other users" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=10;" parent="1" vertex="1">
                     <mxGeometry x="445" y="185" width="100" height="40" as="geometry"/>
                 </mxCell>
-                <mxCell id="fe-wallet" value="Wallet&lt;br&gt;&amp;amp; Credits" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=10;" vertex="1" parent="1">
+                <mxCell id="fe-wallet" value="Wallet&lt;br&gt;&amp;amp; Credits" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=10;" parent="1" vertex="1">
                     <mxGeometry x="555" y="185" width="100" height="40" as="geometry"/>
                 </mxCell>
-                <mxCell id="fe-reviews" value="Reviews&#xa;&amp; Rating" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=10;" vertex="1" parent="1">
+                <mxCell id="fe-reviews" value="Reviews&#xa;&amp; Rating" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=10;" parent="1" vertex="1">
                     <mxGeometry x="170" y="235" width="100" height="35" as="geometry"/>
                 </mxCell>
-                <mxCell id="fe-admin" value="Admin&#xa;Dashboard" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=10;" vertex="1" parent="1">
+                <mxCell id="fe-admin" value="Admin&#xa;Dashboard" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=10;" parent="1" vertex="1">
                     <mxGeometry x="280" y="235" width="100" height="35" as="geometry"/>
                 </mxCell>
-                <mxCell id="fe-notif" value="Notifications &amp;amp; Alerts" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=10;" vertex="1" parent="1">
+                <mxCell id="fe-notif" value="Notifications &amp;amp; Alerts" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=10;" parent="1" vertex="1">
                     <mxGeometry x="390" y="235" width="100" height="35" as="geometry"/>
                 </mxCell>
-                <mxCell id="backend-box" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;verticalAlign=top;fontSize=12;" vertex="1" parent="1">
+                <mxCell id="backend-box" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;verticalAlign=top;fontSize=12;" parent="1" vertex="1">
                     <mxGeometry x="155" y="340" width="490" height="280" as="geometry"/>
                 </mxCell>
-                <mxCell id="backend-title" value="&lt;b style=&quot;font-size: 14px;&quot;&gt;BACKEND – MODULAR MONOLITH&lt;/b&gt;&lt;br&gt;[Java / Spring Boot]" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;" vertex="1" parent="1">
+                <mxCell id="backend-title" value="&lt;b style=&quot;font-size: 14px;&quot;&gt;BACKEND – MODULAR MONOLITH&lt;/b&gt;&lt;br&gt;[Java / Spring Boot]" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;" parent="1" vertex="1">
                     <mxGeometry x="280" y="350" width="240" height="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="mod-auth" value="&lt;b&gt;Auth &amp;amp; User Mgmt&lt;/b&gt;&lt;hr style=&quot;margin: 2px 0;&quot;&gt;- Login / Register&lt;br&gt;- Roles (User, Admin)&lt;br&gt;- Profile Management" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=10;align=left;spacingLeft=5;verticalAlign=top;" vertex="1" parent="1">
+                <mxCell id="mod-auth" value="&lt;b&gt;Auth &amp;amp; User Mgmt&lt;/b&gt;&lt;hr style=&quot;margin: 2px 0;&quot;&gt;- Login / Register&lt;br&gt;- Roles (User, Admin)&lt;br&gt;- Profile Management" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=10;align=left;spacingLeft=5;verticalAlign=top;" parent="1" vertex="1">
                     <mxGeometry x="180" y="385" width="140" height="65" as="geometry"/>
                 </mxCell>
-                <mxCell id="mod-skill" value="&lt;b&gt;Skill &amp;amp; Profile Module&lt;/b&gt;&lt;hr style=&quot;margin: 2px 0;&quot;&gt;- Skill Listings&lt;br&gt;- Search &amp;amp; Filter&lt;br&gt;- Profile Information" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=10;align=left;spacingLeft=5;verticalAlign=top;" vertex="1" parent="1">
+                <mxCell id="mod-skill" value="&lt;b&gt;Skill &amp;amp; Profile Module&lt;/b&gt;&lt;hr style=&quot;margin: 2px 0;&quot;&gt;- Skill Listings&lt;br&gt;- Search &amp;amp; Filter&lt;br&gt;- Profile Information" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=10;align=left;spacingLeft=5;verticalAlign=top;" parent="1" vertex="1">
                     <mxGeometry x="330" y="385" width="140" height="65" as="geometry"/>
                 </mxCell>
-                <mxCell id="mod-scheduling" value="&lt;b&gt;Scheduling Module&lt;/b&gt;&lt;hr style=&quot;margin: 2px 0;&quot;&gt;- Calendar&lt;br&gt;- Session States&lt;div&gt;- Session History&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=10;align=left;spacingLeft=5;verticalAlign=top;" vertex="1" parent="1">
+                <mxCell id="mod-scheduling" value="&lt;b&gt;Scheduling Module&lt;/b&gt;&lt;hr style=&quot;margin: 2px 0;&quot;&gt;- Calendar&lt;br&gt;- Session States&lt;div&gt;- Session History&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=10;align=left;spacingLeft=5;verticalAlign=top;" parent="1" vertex="1">
                     <mxGeometry x="480" y="385" width="140" height="65" as="geometry"/>
                 </mxCell>
-                <mxCell id="mod-chat" value="&lt;b&gt;Chat Module&lt;/b&gt;&lt;hr style=&quot;margin: 2px 0;&quot;&gt;- User messaging&lt;br&gt;- Pre-booking Discussions&lt;br&gt;- Notifications" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=10;align=left;spacingLeft=5;verticalAlign=top;" vertex="1" parent="1">
+                <mxCell id="mod-chat" value="&lt;b&gt;Chat Module&lt;/b&gt;&lt;hr style=&quot;margin: 2px 0;&quot;&gt;- User messaging&lt;br&gt;- Pre-booking Discussions&lt;br&gt;- Notifications" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=10;align=left;spacingLeft=5;verticalAlign=top;" parent="1" vertex="1">
                     <mxGeometry x="180" y="475" width="140" height="65" as="geometry"/>
                 </mxCell>
-                <mxCell id="mod-wallet" value="&lt;b&gt;Wallet &amp;amp; Credits&lt;/b&gt;&lt;hr style=&quot;margin: 2px 0;&quot;&gt;- Escrow System&lt;br&gt;- Credit Transfer&lt;br&gt;- Audit Log" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=10;align=left;spacingLeft=5;verticalAlign=top;" vertex="1" parent="1">
+                <mxCell id="mod-wallet" value="&lt;b&gt;Wallet &amp;amp; Credits&lt;/b&gt;&lt;hr style=&quot;margin: 2px 0;&quot;&gt;- Escrow System&lt;br&gt;- Credit Transfer&lt;br&gt;- Audit Log" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=10;align=left;spacingLeft=5;verticalAlign=top;" parent="1" vertex="1">
                     <mxGeometry x="330" y="475" width="140" height="65" as="geometry"/>
                 </mxCell>
-                <mxCell id="mod-reputation" value="&lt;b&gt;Reputation &amp;amp; Reviews&lt;/b&gt;&lt;hr style=&quot;margin: 2px 0;&quot;&gt;- Rating &amp;amp; Feedback&lt;br&gt;- Review History" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=10;align=left;spacingLeft=5;verticalAlign=top;" vertex="1" parent="1">
+                <mxCell id="mod-reputation" value="&lt;b&gt;Reputation &amp;amp; Reviews&lt;/b&gt;&lt;hr style=&quot;margin: 2px 0;&quot;&gt;- Rating &amp;amp; Feedback&lt;br&gt;- Review History" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=10;align=left;spacingLeft=5;verticalAlign=top;" parent="1" vertex="1">
                     <mxGeometry x="480" y="475" width="140" height="65" as="geometry"/>
                 </mxCell>
-                <mxCell id="mod-admin" value="&lt;b&gt;Admin &amp;amp; Support Module&lt;/b&gt;&lt;hr style=&quot;margin: 2px 0;&quot;&gt;Dispute Handling  |  System Monitoring&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=10;align=center;verticalAlign=top;" vertex="1" parent="1">
+                <mxCell id="mod-admin" value="&lt;b&gt;Admin &amp;amp; Support Module&lt;/b&gt;&lt;hr style=&quot;margin: 2px 0;&quot;&gt;Dispute Handling  |  System Monitoring&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=10;align=center;verticalAlign=top;" parent="1" vertex="1">
                     <mxGeometry x="180" y="560" width="440" height="45" as="geometry"/>
                 </mxCell>
-                <mxCell id="db-layer" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#666666;strokeWidth=2;dashed=1;verticalAlign=top;fontSize=12;" vertex="1" parent="1">
+                <mxCell id="db-layer" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#666666;strokeWidth=2;dashed=1;verticalAlign=top;fontSize=12;" parent="1" vertex="1">
                     <mxGeometry x="100" y="680" width="600" height="130" as="geometry"/>
                 </mxCell>
-                <mxCell id="db-title" value="&lt;b&gt;DATA &amp;amp; EXTERNAL SERVICES&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;" vertex="1" parent="1">
+                <mxCell id="db-title" value="&lt;b&gt;DATA &amp;amp; EXTERNAL SERVICES&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;" parent="1" vertex="1">
                     <mxGeometry x="300" y="685" width="200" height="20" as="geometry"/>
                 </mxCell>
                 <mxCell id="sqldb" value="&lt;b&gt;SQL Database&lt;/b&gt;&lt;br&gt;[PostgreSQL]&lt;hr style=&quot;margin: 2px 0;&quot;&gt;Users, Sessions,&lt;br&gt;Wallets, Skills" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=10;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=10;verticalAlign=top;" parent="1" vertex="1">
@@ -84,263 +76,50 @@
                 <mxCell id="nosqldb" value="&lt;b&gt;NoSQL Database&lt;/b&gt;&lt;br&gt;[MongoDB]&lt;hr style=&quot;margin: 2px 0;&quot;&gt;Chat Logs,&lt;br&gt;Audit Logs" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=10;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=10;verticalAlign=top;" parent="1" vertex="1">
                     <mxGeometry x="330" y="715" width="130" height="85" as="geometry"/>
                 </mxCell>
-                <mxCell id="external" value="&lt;b&gt;External Services&lt;/b&gt;&lt;hr style=&quot;margin: 2px 0;&quot;&gt;- Stripe&lt;br&gt;- Zoom / Google Meet&lt;br&gt;- Email Service" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;fontSize=10;align=left;spacingLeft=5;verticalAlign=top;" vertex="1" parent="1">
+                <mxCell id="external" value="&lt;b&gt;External Services&lt;/b&gt;&lt;hr style=&quot;margin: 2px 0;&quot;&gt;- Stripe&lt;br&gt;- Zoom / Google Meet&lt;br&gt;- Email Service" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;fontSize=10;align=left;spacingLeft=5;verticalAlign=top;" parent="1" vertex="1">
                     <mxGeometry x="490" y="715" width="150" height="85" as="geometry"/>
                 </mxCell>
-                <mxCell id="arrow-user-fe" value="HTTPS" style="endArrow=classic;html=1;strokeWidth=2;fontSize=10;" edge="1" parent="1">
+                <mxCell id="arrow-user-fe" value="HTTPS" style="endArrow=classic;html=1;strokeWidth=2;fontSize=10;" parent="1" edge="1">
                     <mxGeometry relative="1" as="geometry">
                         <mxPoint x="400" y="80" as="sourcePoint"/>
                         <mxPoint x="400" y="140" as="targetPoint"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="arrow-fe-be" value="REST API" style="endArrow=classic;html=1;strokeWidth=2;fontSize=10;" edge="1" parent="1">
+                <mxCell id="arrow-fe-be" value="REST API" style="endArrow=classic;html=1;strokeWidth=2;fontSize=10;" parent="1" edge="1">
                     <mxGeometry relative="1" as="geometry">
                         <mxPoint x="400" y="280" as="sourcePoint"/>
                         <mxPoint x="400" y="340" as="targetPoint"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="arrow-be-db1" value="" style="endArrow=classic;html=1;strokeWidth=2;fontSize=10;exitX=0.25;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1">
+                <mxCell id="arrow-be-db1" value="" style="endArrow=classic;html=1;strokeWidth=2;fontSize=10;exitX=0.25;exitY=1;exitDx=0;exitDy=0;" parent="1" edge="1">
                     <mxGeometry relative="1" as="geometry">
                         <mxPoint x="234.55" y="617.5" as="sourcePoint"/>
                         <mxPoint x="234.55" y="712.5" as="targetPoint"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="arrow-be-db2" value="" style="endArrow=classic;html=1;strokeWidth=2;fontSize=10;" edge="1" parent="1">
+                <mxCell id="arrow-be-db2" value="" style="endArrow=classic;html=1;strokeWidth=2;fontSize=10;" parent="1" edge="1">
                     <mxGeometry relative="1" as="geometry">
                         <mxPoint x="394.55" y="620" as="sourcePoint"/>
                         <mxPoint x="394.55" y="715" as="targetPoint"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="arrow-be-ext" value="" style="endArrow=classic;html=1;strokeWidth=2;fontSize=10;" edge="1" parent="1">
+                <mxCell id="arrow-be-ext" value="" style="endArrow=classic;html=1;strokeWidth=2;fontSize=10;" parent="1" edge="1">
                     <mxGeometry relative="1" as="geometry">
                         <mxPoint x="564.55" y="620" as="sourcePoint"/>
                         <mxPoint x="564.55" y="715" as="targetPoint"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="arrow-label-jdbc" value="JDBC/JPA" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=9;" vertex="1" parent="1">
+                <mxCell id="arrow-label-jdbc" value="JDBC/JPA" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=9;" parent="1" vertex="1">
                     <mxGeometry x="180" y="655" width="60" height="20" as="geometry"/>
                 </mxCell>
-                <mxCell id="arrow-label-mongo" value="MongoDB Driver" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=9;" vertex="1" parent="1">
+                <mxCell id="arrow-label-mongo" value="MongoDB Driver" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=9;" parent="1" vertex="1">
                     <mxGeometry x="320" y="655" width="80" height="20" as="geometry"/>
                 </mxCell>
-                <mxCell id="arrow-label-api" value="HTTP/API" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=9;" vertex="1" parent="1">
+                <mxCell id="arrow-label-api" value="HTTP/API" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=9;" parent="1" vertex="1">
                     <mxGeometry x="510" y="655" width="60" height="20" as="geometry"/>
                 </mxCell>
-                <mxCell id="FW_-R5Zy4-w9YY6Iccfy-1" value="Learning Session Scheduling" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=10;" vertex="1" parent="1">
+                <mxCell id="FW_-R5Zy4-w9YY6Iccfy-1" value="Learning Session Scheduling" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=10;" parent="1" vertex="1">
                     <mxGeometry x="500" y="232.5" width="100" height="40" as="geometry"/>
-                </mxCell>
-            </root>
-        </mxGraphModel>
-    </diagram>
-    <diagram name="Backend Class Diagram" id="backend-classes">
-        <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="1400" pageHeight="1000" math="0" shadow="0">
-            <root>
-                <mxCell id="0"/>
-                <mxCell id="1" parent="0"/>
-                <mxCell id="identity-module" value="Identity Module" style="swimlane;fontStyle=1;align=center;verticalAlign=top;horizontal=1;startSize=26;fillColor=#e1d5e7;strokeColor=#9673a6;swimlaneFillColor=#f3e8ff;" parent="1" vertex="1">
-                    <mxGeometry x="40" y="40" width="240" height="200" as="geometry"/>
-                </mxCell>
-                <mxCell id="user-class" value="&lt;b&gt;User&lt;/b&gt;" style="swimlane;fontStyle=0;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="identity-module" vertex="1">
-                    <mxGeometry x="20" y="40" width="200" height="140" as="geometry"/>
-                </mxCell>
-                <mxCell id="user-attrs" value="- id: String&#xa;- name: String&#xa;- bio: String&#xa;- email: String&#xa;- reputationScore: Double" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="user-class" vertex="1">
-                    <mxGeometry y="26" width="200" height="74" as="geometry"/>
-                </mxCell>
-                <mxCell id="user-sep" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" parent="user-class" vertex="1">
-                    <mxGeometry y="100" width="200" height="8" as="geometry"/>
-                </mxCell>
-                <mxCell id="user-methods" value="+ getSkillListings(): List&lt;SkillListing&gt;&#xa;+ getWallet(): Wallet" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="user-class" vertex="1">
-                    <mxGeometry y="108" width="200" height="32" as="geometry"/>
-                </mxCell>
-                <mxCell id="wallet-module" value="Wallet Module" style="swimlane;fontStyle=1;align=center;verticalAlign=top;horizontal=1;startSize=26;fillColor=#d5e8d4;strokeColor=#82b366;swimlaneFillColor=#e8f5e9;" parent="1" vertex="1">
-                    <mxGeometry x="40" y="280" width="240" height="360" as="geometry"/>
-                </mxCell>
-                <mxCell id="wallet-class" value="&lt;b&gt;Wallet&lt;/b&gt;" style="swimlane;fontStyle=0;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;fillColor=#d5e8d4;strokeColor=#82b366;" parent="wallet-module" vertex="1">
-                    <mxGeometry x="20" y="40" width="200" height="130" as="geometry"/>
-                </mxCell>
-                <mxCell id="wallet-attrs" value="- walletId: String&#xa;- availableCredits: Integer&#xa;- lockedCredits: Integer" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="wallet-class" vertex="1">
-                    <mxGeometry y="26" width="200" height="54" as="geometry"/>
-                </mxCell>
-                <mxCell id="wallet-sep" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" parent="wallet-class" vertex="1">
-                    <mxGeometry y="80" width="200" height="8" as="geometry"/>
-                </mxCell>
-                <mxCell id="wallet-methods" value="+ lockCredits(amount): void&#xa;+ releaseCredits(amount): void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="wallet-class" vertex="1">
-                    <mxGeometry y="88" width="200" height="42" as="geometry"/>
-                </mxCell>
-                <mxCell id="escrow-class" value="&lt;b&gt;EscrowTransaction&lt;/b&gt;" style="swimlane;fontStyle=0;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="wallet-module" vertex="1">
-                    <mxGeometry x="20" y="190" width="200" height="150" as="geometry"/>
-                </mxCell>
-                <mxCell id="escrow-attrs" value="- id: String&#xa;- amount: Integer&#xa;- status: EscrowStatus&#xa;- createdAt: DateTime&#xa;- completedAt: DateTime" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="escrow-class" vertex="1">
-                    <mxGeometry y="26" width="200" height="74" as="geometry"/>
-                </mxCell>
-                <mxCell id="escrow-sep" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" parent="escrow-class" vertex="1">
-                    <mxGeometry y="100" width="200" height="8" as="geometry"/>
-                </mxCell>
-                <mxCell id="escrow-methods" value="+ complete(): void&#xa;+ cancel(): void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="escrow-class" vertex="1">
-                    <mxGeometry y="108" width="200" height="42" as="geometry"/>
-                </mxCell>
-                <mxCell id="session-module" value="Session Module" style="swimlane;fontStyle=1;align=center;verticalAlign=top;horizontal=1;startSize=26;fillColor=#fff2cc;strokeColor=#d6b656;swimlaneFillColor=#fffde7;" parent="1" vertex="1">
-                    <mxGeometry x="320" y="40" width="560" height="600" as="geometry"/>
-                </mxCell>
-                <mxCell id="listing-class" value="&lt;b&gt;SkillListing&lt;/b&gt;" style="swimlane;fontStyle=0;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;fillColor=#fff2cc;strokeColor=#d6b656;" parent="session-module" vertex="1">
-                    <mxGeometry x="20" y="40" width="200" height="160" as="geometry"/>
-                </mxCell>
-                <mxCell id="listing-attrs" value="- id: String&#xa;- title: String&#xa;- description: String&#xa;- durationInMinutes: Integer&#xa;- creditCost: Integer&#xa;- isActive: Boolean" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="listing-class" vertex="1">
-                    <mxGeometry y="26" width="200" height="94" as="geometry"/>
-                </mxCell>
-                <mxCell id="listing-sep" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" parent="listing-class" vertex="1">
-                    <mxGeometry y="120" width="200" height="8" as="geometry"/>
-                </mxCell>
-                <mxCell id="listing-methods" value="+ createSession(student): Session" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="listing-class" vertex="1">
-                    <mxGeometry y="128" width="200" height="32" as="geometry"/>
-                </mxCell>
-                <mxCell id="session-class" value="&lt;b&gt;Session&lt;/b&gt;" style="swimlane;fontStyle=0;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;fillColor=#e1d5e7;strokeColor=#9673a6;" parent="session-module" vertex="1">
-                    <mxGeometry x="20" y="290" width="200" height="170" as="geometry"/>
-                </mxCell>
-                <mxCell id="session-attrs" value="- id: String&#xa;- additionalComments: String&#xa;- requestedAt: DateTime&#xa;- videoLink: String&#xa;- scheduledTime: DateTime" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="session-class" vertex="1">
-                    <mxGeometry y="26" width="200" height="74" as="geometry"/>
-                </mxCell>
-                <mxCell id="session-sep" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" parent="session-class" vertex="1">
-                    <mxGeometry y="100" width="200" height="8" as="geometry"/>
-                </mxCell>
-                <mxCell id="session-methods" value="+ approve(): void&#xa;+ reject(): void&#xa;+ complete(): void&#xa;+ cancel(): void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="session-class" vertex="1">
-                    <mxGeometry y="108" width="200" height="62" as="geometry"/>
-                </mxCell>
-                <mxCell id="state-interface" value="&lt;b&gt;&amp;lt;&amp;lt;interface&amp;gt;&amp;gt;&lt;/b&gt;&#xa;&lt;b&gt;SessionState&lt;/b&gt;" style="swimlane;fontStyle=0;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=40;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" parent="session-module" vertex="1">
-                    <mxGeometry x="300" y="40" width="220" height="110" as="geometry"/>
-                </mxCell>
-                <mxCell id="state-sep" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" parent="state-interface" vertex="1">
-                    <mxGeometry y="40" width="220" height="8" as="geometry"/>
-                </mxCell>
-                <mxCell id="state-methods" value="+ handle(session: Session): void&#xa;+ canTransitionTo(state): Boolean&#xa;+ getStateName(): String" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="state-interface" vertex="1">
-                    <mxGeometry y="48" width="220" height="62" as="geometry"/>
-                </mxCell>
-                <mxCell id="requested-state" value="&lt;b&gt;RequestedState&lt;/b&gt;" style="swimlane;fontStyle=0;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;fillColor=#f8cecc;strokeColor=#b85450;" parent="session-module" vertex="1">
-                    <mxGeometry x="280" y="190" width="180" height="100" as="geometry"/>
-                </mxCell>
-                <mxCell id="requested-attrs" value="- proposedTime: DateTime&#xa;- expirationTime: DateTime" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="requested-state" vertex="1">
-                    <mxGeometry y="26" width="180" height="44" as="geometry"/>
-                </mxCell>
-                <mxCell id="requested-sep" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" parent="requested-state" vertex="1">
-                    <mxGeometry y="70" width="180" height="8" as="geometry"/>
-                </mxCell>
-                <mxCell id="requested-methods" value="+ handle(session): void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="requested-state" vertex="1">
-                    <mxGeometry y="78" width="180" height="22" as="geometry"/>
-                </mxCell>
-                <mxCell id="approved-state" value="&lt;b&gt;ApprovedState&lt;/b&gt;" style="swimlane;fontStyle=0;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;fillColor=#d5e8d4;strokeColor=#82b366;" parent="session-module" vertex="1">
-                    <mxGeometry x="280" y="310" width="180" height="70" as="geometry"/>
-                </mxCell>
-                <mxCell id="approved-sep" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" parent="approved-state" vertex="1">
-                    <mxGeometry y="26" width="180" height="8" as="geometry"/>
-                </mxCell>
-                <mxCell id="approved-methods" value="+ handle(session): void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="approved-state" vertex="1">
-                    <mxGeometry y="34" width="180" height="36" as="geometry"/>
-                </mxCell>
-                <mxCell id="completed-state" value="&lt;b&gt;CompletedState&lt;/b&gt;" style="swimlane;fontStyle=0;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="session-module" vertex="1">
-                    <mxGeometry x="280" y="400" width="180" height="70" as="geometry"/>
-                </mxCell>
-                <mxCell id="completed-sep" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" parent="completed-state" vertex="1">
-                    <mxGeometry y="26" width="180" height="8" as="geometry"/>
-                </mxCell>
-                <mxCell id="completed-methods" value="+ handle(session): void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="completed-state" vertex="1">
-                    <mxGeometry y="34" width="180" height="36" as="geometry"/>
-                </mxCell>
-                <mxCell id="cancelled-state" value="&lt;b&gt;CancelledState&lt;/b&gt;" style="swimlane;fontStyle=0;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;fillColor=#f8cecc;strokeColor=#b85450;" parent="session-module" vertex="1">
-                    <mxGeometry x="280" y="490" width="180" height="70" as="geometry"/>
-                </mxCell>
-                <mxCell id="cancelled-sep" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" parent="cancelled-state" vertex="1">
-                    <mxGeometry y="26" width="180" height="8" as="geometry"/>
-                </mxCell>
-                <mxCell id="cancelled-methods" value="+ handle(session): void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="cancelled-state" vertex="1">
-                    <mxGeometry y="34" width="180" height="36" as="geometry"/>
-                </mxCell>
-                <mxCell id="listing-session-assoc" value="" style="endArrow=none;html=1;exitX=0.5;exitY=1.094;exitDx=0;exitDy=0;exitPerimeter=0;" parent="session-module" edge="1" source="listing-methods">
-                    <mxGeometry relative="1" as="geometry">
-                        <mxPoint x="119.5" y="220" as="sourcePoint"/>
-                        <mxPoint x="119.5" y="290" as="targetPoint"/>
-                    </mxGeometry>
-                </mxCell>
-                <mxCell id="user-listing-assoc" value="owns ►" style="endArrow=none;html=1;" parent="1" edge="1">
-                    <mxGeometry relative="1" as="geometry">
-                        <mxPoint x="280" y="150" as="sourcePoint"/>
-                        <mxPoint x="340" y="150" as="targetPoint"/>
-                    </mxGeometry>
-                </mxCell>
-                <mxCell id="user-listing-label1" value="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;" vertex="1" parent="1">
-                    <mxGeometry x="275" y="125" width="20" height="20" as="geometry"/>
-                </mxCell>
-                <mxCell id="user-listing-label2" value="*" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;" vertex="1" parent="1">
-                    <mxGeometry x="325" y="125" width="20" height="20" as="geometry"/>
-                </mxCell>
-                <mxCell id="user-wallet-assoc" value="has ▼" style="endArrow=none;html=1;" parent="1" edge="1">
-                    <mxGeometry relative="1" as="geometry">
-                        <mxPoint x="160" y="240" as="sourcePoint"/>
-                        <mxPoint x="160" y="280" as="targetPoint"/>
-                    </mxGeometry>
-                </mxCell>
-                <mxCell id="user-wallet-label1" value="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;" vertex="1" parent="1">
-                    <mxGeometry x="165" y="240" width="20" height="20" as="geometry"/>
-                </mxCell>
-                <mxCell id="user-wallet-label2" value="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;" vertex="1" parent="1">
-                    <mxGeometry x="165" y="260" width="20" height="20" as="geometry"/>
-                </mxCell>
-                <mxCell id="listing-session-label1" value="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;" parent="1" vertex="1">
-                    <mxGeometry x="445" y="200" width="20" height="20" as="geometry"/>
-                </mxCell>
-                <mxCell id="listing-session-label2" value="*" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;" parent="1" vertex="1">
-                    <mxGeometry x="445" y="250" width="20" height="20" as="geometry"/>
-                </mxCell>
-                <mxCell id="session-state-assoc" value="currentState" style="endArrow=open;html=1;endSize=12;startArrow=diamondThin;startSize=14;startFill=1;" parent="1" edge="1">
-                    <mxGeometry relative="1" as="geometry">
-                        <mxPoint x="540" y="340" as="sourcePoint"/>
-                        <mxPoint x="600" y="340" as="targetPoint"/>
-                    </mxGeometry>
-                </mxCell>
-                <mxCell id="session-escrow-assoc" value="" style="endArrow=none;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" edge="1">
-                    <mxGeometry relative="1" as="geometry">
-                        <mxPoint x="320" y="370" as="sourcePoint"/>
-                        <mxPoint x="280" y="520" as="targetPoint"/>
-                        <Array as="points">
-                            <mxPoint x="300" y="370"/>
-                            <mxPoint x="300" y="520"/>
-                        </Array>
-                    </mxGeometry>
-                </mxCell>
-                <mxCell id="session-escrow-label1" value="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;" parent="1" vertex="1">
-                    <mxGeometry x="305" y="350" width="20" height="20" as="geometry"/>
-                </mxCell>
-                <mxCell id="session-escrow-label2" value="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;" parent="1" vertex="1">
-                    <mxGeometry x="280" y="500" width="20" height="20" as="geometry"/>
-                </mxCell>
-                <mxCell id="state-impl1" value="" style="endArrow=block;html=1;endSize=12;endFill=0;" parent="1" edge="1">
-                    <mxGeometry relative="1" as="geometry">
-                        <mxPoint x="690" y="190" as="sourcePoint"/>
-                        <mxPoint x="690" y="150" as="targetPoint"/>
-                    </mxGeometry>
-                </mxCell>
-                <mxCell id="state-impl2" value="" style="endArrow=block;html=1;endSize=12;endFill=0;" parent="1" edge="1">
-                    <mxGeometry relative="1" as="geometry">
-                        <mxPoint x="690" y="310" as="sourcePoint"/>
-                        <mxPoint x="690" y="290" as="targetPoint"/>
-                    </mxGeometry>
-                </mxCell>
-                <mxCell id="state-impl3" value="" style="endArrow=block;html=1;endSize=12;endFill=0;" parent="1" edge="1">
-                    <mxGeometry relative="1" as="geometry">
-                        <mxPoint x="690" y="400" as="sourcePoint"/>
-                        <mxPoint x="690" y="380" as="targetPoint"/>
-                    </mxGeometry>
-                </mxCell>
-                <mxCell id="state-impl4" value="" style="endArrow=block;html=1;endSize=12;endFill=0;" parent="1" edge="1">
-                    <mxGeometry relative="1" as="geometry">
-                        <mxPoint x="690" y="490" as="sourcePoint"/>
-                        <mxPoint x="690" y="470" as="targetPoint"/>
-                    </mxGeometry>
-                </mxCell>
-                <mxCell id="impl-line" value="" style="endArrow=none;html=1;" edge="1" parent="1">
-                    <mxGeometry relative="1" as="geometry">
-                        <mxPoint x="690" y="490" as="sourcePoint"/>
-                        <mxPoint x="690" y="190" as="targetPoint"/>
-                    </mxGeometry>
                 </mxCell>
             </root>
         </mxGraphModel>
