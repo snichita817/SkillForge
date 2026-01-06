@@ -105,32 +105,32 @@ SkillForge is a web platform that facilitates the exchange of skills between use
 
 * The package diagram was derived by grouping components from the system architecture diagram according to responsibility
 * User:
-      * User – core identity
-      * Profile – public user information
-      * Credentials – authentication data
-      * RoleContext – student/teacher role
+      - User – core identity
+      - Profile – public user information
+      - Credentials – authentication data
+      - RoleContext – student/teacher role
 * Skill Listing: 
-      * SkillListing – teaching offer
-      * Tag – categorization
-      * SearchCriteria – filtering logic
+      - SkillListing – teaching offer
+      - Tag – categorization
+      - SearchCriteria – filtering logic
 * Scheduling:
-      * Session – learning event
-      * TimeSlot – scheduled time
-      * AvailabilityCalendar – teacher availability
-      * SessionState – lifecycle
+      - Session – learning event
+      - TimeSlot – scheduled time
+      - AvailabilityCalendar – teacher availability
+      - SessionState – lifecycle
 * Wallet:
-      * Wallet – credit balance
-      * CreditTransaction – immutable history
-      * EscrowEntry – locked credits
+      - Wallet – credit balance
+      - CreditTransaction – immutable history
+      - EscrowEntry – locked credits
 * Reputation:
-      * Review – text feedback
-      * Rating – numeric score
-      * ReputationScore – aggregated value
+      - Review – text feedback
+      - Rating – numeric score
+      - ReputationScore – aggregated value
 * Communication:
-      * Chat
-      * Message
-      * Conversation
+      - Chat
+      - Message
+      - Conversation
 * External payment:
-      * PaymentService
-      * PaymentRequest
-      * PaymentResponse
+      - PaymentService
+      - PaymentRequest
+      - PaymentResponse
