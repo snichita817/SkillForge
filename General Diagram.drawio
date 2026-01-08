@@ -1,6 +1,6 @@
 <mxfile host="65bd71144e">
     <diagram name="SkillForge General Solution" id="c4-container">
-        <mxGraphModel dx="583" dy="510" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1400" pageHeight="1000" math="0" shadow="0">
+        <mxGraphModel dx="829" dy="663" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1400" pageHeight="1000" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
@@ -38,31 +38,31 @@
                     <mxGeometry x="390" y="235" width="100" height="35" as="geometry"/>
                 </mxCell>
                 <mxCell id="backend-box" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;verticalAlign=top;fontSize=12;" parent="1" vertex="1">
-                    <mxGeometry x="155" y="340" width="490" height="280" as="geometry"/>
+                    <mxGeometry x="155" y="340" width="495" height="280" as="geometry"/>
                 </mxCell>
                 <mxCell id="backend-title" value="&lt;b style=&quot;font-size: 14px;&quot;&gt;BACKEND – MODULAR MONOLITH&lt;/b&gt;&lt;br&gt;[Java / Spring Boot]" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;" parent="1" vertex="1">
                     <mxGeometry x="280" y="350" width="240" height="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="mod-auth" value="&lt;b&gt;Auth &amp;amp; User Mgmt&lt;/b&gt;&lt;hr style=&quot;margin: 2px 0;&quot;&gt;- Login / Register&lt;br&gt;- Roles (User, Admin)&lt;br&gt;- Profile Management" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=10;align=left;spacingLeft=5;verticalAlign=top;" parent="1" vertex="1">
+                <mxCell id="mod-auth" value="&lt;b&gt;Auth &amp;amp; User Mgmt Module&lt;/b&gt;&lt;hr style=&quot;margin: 2px 0;&quot;&gt;- Login / Register&lt;br&gt;- Roles (User, Admin)&lt;br&gt;- Profile Management" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=10;align=left;spacingLeft=5;verticalAlign=top;" parent="1" vertex="1">
                     <mxGeometry x="180" y="385" width="140" height="65" as="geometry"/>
                 </mxCell>
                 <mxCell id="mod-skill" value="&lt;b&gt;Skill &amp;amp; Profile Module&lt;/b&gt;&lt;hr style=&quot;margin: 2px 0;&quot;&gt;- Skill Listings&lt;br&gt;- Search &amp;amp; Filter&lt;br&gt;- Profile Information" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=10;align=left;spacingLeft=5;verticalAlign=top;" parent="1" vertex="1">
                     <mxGeometry x="330" y="385" width="140" height="65" as="geometry"/>
                 </mxCell>
                 <mxCell id="mod-scheduling" value="&lt;b&gt;Scheduling Module&lt;/b&gt;&lt;hr style=&quot;margin: 2px 0;&quot;&gt;- Calendar&lt;br&gt;- Session States&lt;div&gt;- Session History&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=10;align=left;spacingLeft=5;verticalAlign=top;" parent="1" vertex="1">
-                    <mxGeometry x="480" y="385" width="140" height="65" as="geometry"/>
+                    <mxGeometry x="480" y="385" width="154" height="65" as="geometry"/>
                 </mxCell>
                 <mxCell id="mod-chat" value="&lt;b&gt;Chat Module&lt;/b&gt;&lt;hr style=&quot;margin: 2px 0;&quot;&gt;- User messaging&lt;br&gt;- Pre-booking Discussions&lt;br&gt;- Notifications" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=10;align=left;spacingLeft=5;verticalAlign=top;" parent="1" vertex="1">
                     <mxGeometry x="180" y="475" width="140" height="65" as="geometry"/>
                 </mxCell>
-                <mxCell id="mod-wallet" value="&lt;b&gt;Wallet &amp;amp; Credits&lt;/b&gt;&lt;hr style=&quot;margin: 2px 0;&quot;&gt;- Escrow System&lt;br&gt;- Credit Transfer&lt;br&gt;- Audit Log" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=10;align=left;spacingLeft=5;verticalAlign=top;" parent="1" vertex="1">
+                <mxCell id="mod-wallet" value="&lt;b&gt;Wallet &amp;amp; Credits Module&lt;/b&gt;&lt;hr style=&quot;margin: 2px 0;&quot;&gt;- Escrow System&lt;br&gt;- Credit Transfer&lt;br&gt;- Audit Log" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=10;align=left;spacingLeft=5;verticalAlign=top;" parent="1" vertex="1">
                     <mxGeometry x="330" y="475" width="140" height="65" as="geometry"/>
                 </mxCell>
-                <mxCell id="mod-reputation" value="&lt;b&gt;Reputation &amp;amp; Reviews&lt;/b&gt;&lt;hr style=&quot;margin: 2px 0;&quot;&gt;- Rating &amp;amp; Feedback&lt;br&gt;- Review History" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=10;align=left;spacingLeft=5;verticalAlign=top;" parent="1" vertex="1">
-                    <mxGeometry x="480" y="475" width="140" height="65" as="geometry"/>
+                <mxCell id="mod-reputation" value="&lt;b&gt;Reputation &amp;amp; Reviews Module&lt;/b&gt;&lt;hr style=&quot;margin: 2px 0;&quot;&gt;- Rating &amp;amp; Feedback&lt;br&gt;- Review History" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=10;align=left;spacingLeft=5;verticalAlign=top;" parent="1" vertex="1">
+                    <mxGeometry x="480" y="475" width="154" height="65" as="geometry"/>
                 </mxCell>
-                <mxCell id="mod-admin" value="&lt;b&gt;Admin &amp;amp; Support Module&lt;/b&gt;&lt;hr style=&quot;margin: 2px 0;&quot;&gt;Dispute Handling  |  System Monitoring&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=10;align=center;verticalAlign=top;" parent="1" vertex="1">
-                    <mxGeometry x="180" y="560" width="440" height="45" as="geometry"/>
+                <mxCell id="mod-admin" value="&lt;b&gt;Admin &amp;amp; Support Module&lt;/b&gt;&lt;hr style=&quot;margin: 2px 0;&quot;&gt;Dispute Handling  |  System Monitoring&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=10;align=center;verticalAlign=top;" parent="1" vertex="1">
+                    <mxGeometry x="180" y="560" width="454" height="45" as="geometry"/>
                 </mxCell>
                 <mxCell id="db-layer" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#666666;strokeWidth=2;dashed=1;verticalAlign=top;fontSize=12;" parent="1" vertex="1">
                     <mxGeometry x="100" y="680" width="600" height="130" as="geometry"/>
