@@ -52,9 +52,9 @@ SkillForge is a web platform that facilitates the exchange of skills between use
 | Upon `Accepted` status, the system must enable the exchange of video links (Zoom/Meet) within the chat. | **Medium** |
 | **Request Expiration:** If a session request remains in `Requested` or `Counter-Offered` state for more than **48 hours**, the system must automatically expire the request, refund any locked credits, update the status to `Expired`, and notify the Student. | **High** |
 | **Teacher Cancellation:** A Teacher may cancel a scheduled session at any time. Upon cancellation, the Student must receive a **full refund** of locked credits. The Teacher receives a cancellation warning. | **High** |
-| **Cancellation Warnings:** After **5 cancellation warnings**, the system must display a notice on the Teacher's public profile indicating their cancellation frequency (e.g., "This teacher has cancelled X sessions in the last 30 days"). | **Medium** |
+| **Cancellation Warnings:** After **5 cancellations**, the system must display a notice on the Teacher's public profile indicating their cancellation frequency (e.g., "This teacher has cancelled X sessions in the last 30 days"). | **Medium** |
 | **No-Show Reporting:** Either party may report a no-show if the other party fails to attend within a **30-minute grace period** from the scheduled start time. | **High** |
-| **No-Show Resolution:** When a no-show is reported, the session is marked as `Cancelled (No-Show)` and locked credits are **refunded to the Student**. No credits are transferred to the Teacher. | **High** |
+| **No-Show Resolution:** When a no-show is reported, the session is marked as `Cancelled` and locked credits are **refunded to the Student**. No credits are transferred to the Teacher. | **High** |
 
 ### 3.4 Credits & Wallet (The Ledger)
 | Requirement Description | Priority |
@@ -69,7 +69,7 @@ SkillForge is a web platform that facilitates the exchange of skills between use
 | Requirement Description | Priority |
 | :--- | :--- |
 | After a session, the Student must be able to rate the Teacher (1-5 Stars) and leave a text review. | **High** |
-| **Bidirectional Ratings:** After a session, the Teacher may **optionally** rate the Student (1-5 Stars) and leave a text review. | **Medium** |
+| **Bidirectional Ratings:** After a session, the Teacher may rate the Student (1-5 Stars) and leave a text review. | **Medium** |
 | **Student Reputation Score:** The system must calculate and display a Student Reputation Score based on ratings received from Teachers. This score must be visible on the Student's public profile. | **Medium** |
 
 ### 3.6 Disputes & Resolution
