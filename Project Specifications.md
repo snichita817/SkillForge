@@ -116,8 +116,27 @@ SkillForge is a web platform that facilitates the exchange of skills between use
 
 ### 6.1 General Diagram
 
+### Overall Architecture
+- Frontend (React + TypeScript) communicates with backend via REST APIs
+- Backend is a **Monolith** built with Java / Spring Boot
+- Data storage is separated by usage and access patterns
+- External services are used where necessary (payments, meetings, email)
 
-
+### Backend Modules
+- **Authentication & User Management**
+  - Login, roles, user profiles
+- **Skills & Profiles**
+  - Skill listing, searching, filtering
+- **Scheduling**
+  - Session booking and lifecycle management
+- **Chat**
+  - User-to-user messaging
+- **Wallet & Credits**
+  - Payments, balances, transactions
+- **Reputation & Reviews**
+  - Ratings and feedback
+- **Admin & Support**
+  - Monitoring, moderation, dispute handling
 
 ### 6.2 Package Diagram
 
