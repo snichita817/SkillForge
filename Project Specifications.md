@@ -50,6 +50,11 @@ SkillForge is a web platform that facilitates the exchange of skills between use
 | The system must prevent "Double Booking" (a user cannot be scheduled to teach and learn at the same time). | **High** |
 | **Session Lifecycle:** The system must manage state transitions: `Requested` -> `Counter-Offered` -> `Accepted` -> `Completed` -> `Disputed`. | **High** |
 | Upon `Accepted` status, the system must enable the exchange of video links (Zoom/Meet) within the chat. | **Medium** |
+| **Request Expiration:** If a session request remains in `Requested` or `Counter-Offered` state for more than **48 hours**, the system must automatically expire the request, refund any locked credits, update the status to `Expired`, and notify the Student. | **High** |
+| **Teacher Cancellation:** A Teacher may cancel a scheduled session at any time. Upon cancellation, the Student must receive a **full refund** of locked credits. The Teacher receives a cancellation warning. | **High** |
+| **Cancellation Warnings:** After **5 cancellation warnings**, the system must display a notice on the Teacher's public profile indicating their cancellation frequency (e.g., "This teacher has cancelled X sessions in the last 30 days"). | **Medium** |
+| **No-Show Reporting:** Either party may report a no-show if the other party fails to attend within a **30-minute grace period** from the scheduled start time. | **High** |
+| **No-Show Resolution:** When a no-show is reported, the session is marked as `Cancelled (No-Show)` and locked credits are **refunded to the Student**. No credits are transferred to the Teacher. | **High** |
 
 ### 3.4 Credits & Wallet (The Ledger)
 | Requirement Description | Priority |
@@ -58,11 +63,24 @@ SkillForge is a web platform that facilitates the exchange of skills between use
 | Upon Session Completion, locked credits must be transferred to the teaching User's available balance. | **High** |
 | Users must be able to purchase credit packs via a Payment Gateway mock (e.g., Stripe API). | **Low** |
 | The system must record an immutable Audit Log of every credit transaction (Earned, Spent, Purchased). | **High** |
+| **Insufficient Credits Prevention:** If a User has insufficient credits to book a session, the booking button must be **disabled (greyed out)** in the UI. The system must display the credit shortfall (e.g., "You need 5 more credits") and prompt the user to purchase credits. | **High** |
 
 ### 3.5 Reputation & Reviews
 | Requirement Description | Priority |
 | :--- | :--- |
 | After a session, the Student must be able to rate the Teacher (1-5 Stars) and leave a text review. | **High** |
+| **Bidirectional Ratings:** After a session, the Teacher may **optionally** rate the Student (1-5 Stars) and leave a text review. | **Medium** |
+| **Student Reputation Score:** The system must calculate and display a Student Reputation Score based on ratings received from Teachers. This score must be visible on the Student's public profile. | **Medium** |
+
+### 3.6 Disputes & Resolution
+| Requirement Description | Priority |
+| :--- | :--- |
+| **Raising a Dispute:** Either the Student or the Teacher may raise a dispute within **3 days** after a session has been marked as `Completed`. | **High** |
+| **Dispute Grounds:** Disputes must be based on predefined platform rules that both parties agree to upon registration (e.g., session quality, content mismatch, unprofessional conduct). | **High** |
+| **Dispute Review:** When a dispute is raised, the session status transitions to `Disputed` and an Admin is notified for review. | **High** |
+| **Admin Resolution Actions:** An Admin reviewing a dispute may take one or more of the following actions: issue a full refund to the Student, issue a partial refund, transfer credits to the Teacher, issue bonus credits to the affected party as compensation, issue a warning to either party, or suspend a User account. | **High** |
+| **Audit Logging:** All dispute resolutions and Admin actions must be recorded in the immutable Audit Log. | **High** |
+| **Appeal Process:** A User may appeal an Admin's dispute resolution by sending an email to the support team. | **Low** |
 
 ---
 
