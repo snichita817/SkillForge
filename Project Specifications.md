@@ -70,7 +70,7 @@ SkillForge is a web platform that facilitates the exchange of skills between use
 | :--- | :--- |
 | After a session, the Student must be able to rate the Teacher (1-5 Stars) and leave a text review. | **High** |
 | **Bidirectional Ratings:** After a session, the Teacher may rate the Student (1-5 Stars) and leave a text review. | **Medium** |
-| **Student Reputation Score:** The system must calculate and display a Student Reputation Score based on ratings received from Teachers. This score must be visible on the Student's public profile. | **Medium** |
+| **Reputation Score:** The system must calculate and display a Reputation Score based on ratings received. This score must be visible on the public profile. | **Medium** |
 
 ### 3.6 Disputes & Resolution
 | Requirement Description | Priority |
