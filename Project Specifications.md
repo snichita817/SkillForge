@@ -18,12 +18,10 @@ SkillForge is a web platform that facilitates the exchange of skills between use
 | :--- | :--- |
 | **User** | The core participant. Automatically possesses capabilities to both teach and learn. |
 | **Admin** | System administrator responsible for dispute resolution and platform health. |
-| **Support Staff** | Responsible for handling tickets and user inquiries. |
 
 ---
 
 ## 3. Functional Requirements
-*Requirements are grouped by architectural module.*
 
 ### 3.1 User Management & Authentication
 | Requirement Description | Priority |
@@ -80,7 +78,7 @@ SkillForge is a web platform that facilitates the exchange of skills between use
 | **Dispute Review:** When a dispute is raised, the session status transitions to `Disputed` and an Admin is notified for review. | **High** |
 | **Admin Resolution Actions:** An Admin reviewing a dispute may take one or more of the following actions: issue a full refund to the Student, issue a partial refund, transfer credits to the Teacher, issue bonus credits to the affected party as compensation, issue a warning to either party, or suspend a User account. | **High** |
 | **Audit Logging:** All dispute resolutions and Admin actions must be recorded in the immutable Audit Log. | **High** |
-| **Appeal Process:** A User may appeal an Admin's dispute resolution by sending an email to the support team. | **Low** |
+| **Appeal Process:** A User may appeal an Admin's dispute resolution by sending an email to the team. | **Low** |
 
 ---
 
