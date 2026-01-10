@@ -105,79 +105,38 @@ SkillForge is a web platform that facilitates the exchange of skills between use
 * The system should be available 99% of the time during business hours.
 * Failure of external APIs (e.g., Payment Gateway) must not crash the core application (Graceful Degradation).
 
+### 4.5 Real-Time Communication
+* The chat system must use WebSocket connections for real-time message delivery between users.
+* Session status changes must trigger **real-time notifications** to users.
+* The system must gracefully fall back to polling if WebSocket connections fail.
+
+### 4.6 Responsiveness & Cross-Platform
+* The web application must be **responsive** and usable on desktop, tablet, and mobile browsers.
+* The interface must support the following browsers: Chrome, Firefox, Safari, and Edge (at least last 2 major versions).
+
+### 4.7 Observability & Monitoring
+* The system must log all critical operations (session requests, credit transactions, disputes) with timestamps and user IDs.
+* Logs must be structured (JSON format) to enable easy querying and analysis.
+* The system must expose **health check endpoints** for monitoring service availability.
+* Errors must be logged with sufficient context for debugging (stack traces, request IDs).
+
+### 4.8 Reliability & Recovery
+* The system must implement **automatic retry logic** for transient failures (e.g., database timeouts, payment API errors).
+* Database transactions involving credits should respect ACID rules.
+* The system should support **daily database backups** with a Recovery Point Objective (RPO) of 24 hours.
+
+### 4.9 Testability
+* The codebase must maintain a minimum of **70% unit test coverage** for business logic (session lifecycle, credit operations).
+* All state transitions must have corresponding test cases to prevent regression.
+* External dependencies (Payment Gateway, Email Service) must be abstracted behind interfaces to enable mocking in tests.
+
+### 4.10 Maintainability
+* Code must follow consistent naming conventions and be documented with inline comments for complex logic.
+* API Swagger documentation must be available at a discoverable endpoint and kept up-to-date with all REST endpoints.
+
 ---
 
 ## 5. Technology Constraints
 * **Frontend:** Web Application (Browser based).
-* **Backend:** Monolithic application exposing REST APIs.
+* **Backend:** Modular Monolith application exposing REST APIs.
 * **External Dependencies:** Zoom/Google Meet (for video), Stripe (Mock for payments).
-
-## 6. Diagrams
-
-### 6.1 General Diagram
-
-### Overall Architecture
-- Frontend (React + TypeScript) communicates with backend via REST APIs
-- Backend is a **Monolith** built with Java / Spring Boot
-- Data storage is separated by usage and access patterns
-- External services are used where necessary (payments, meetings, email)
-
-### Backend Modules
-- **Authentication & User Management**
-  - Login, roles, user profiles
-- **Skills & Profiles**
-  - Skill listing, searching, filtering
-- **Scheduling**
-  - Session booking and lifecycle management
-- **Chat**
-  - User-to-user messaging
-- **Wallet & Credits**
-  - Payments, balances, transactions
-- **Reputation & Reviews**
-  - Ratings and feedback
-- **Admin & Support**
-  - Monitoring, moderation, dispute handling
-
-### 6.2 Package Diagram
-
-* The package diagram was derived by grouping components from the system architecture diagram according to responsibility
-* User:
-    - User – core identity
-    - Profile – public user information
-    - Credentials – authentication data
-    - RoleContext – student/teacher role
-
-* Skill Listing:
-    - SkillListing – teaching offer
-    - Tag – categorization
-    - SearchCriteria – filtering logic
-
-* Scheduling:
-    - Session – learning event
-    - TimeSlot – scheduled time
-    - AvailabilityCalendar – teacher availability
-    - SessionState – lifecycle
-
-* Wallet:
-    - Wallet – credit balance
-    - CreditTransaction – immutable history
-    - EscrowEntry – locked credits
-
-* Reputation:
-    - Review – text feedback
-    - Rating – numeric score
-    - ReputationScore – aggregated value
-
-* Communication:
-    - Chat
-    - Message
-    - Conversation
-
-* External Payment:
-    - PaymentService
-    - PaymentRequest
-    - PaymentResponse
-
-### 6.3 Use Case Diagram
-
-* The use case diagram illustrates system functionality from the user’s perspective and complements the structural diagrams by showing how actors interact with the system
